@@ -1,4 +1,7 @@
-var a
-var b
-var res
-res= a+b
+function add()
+{
+    var a =document.getElementById("num1")
+    var b =document.getElementById("num1")
+    var res =a+b
+    document.getElementById("res").value= res
+}
